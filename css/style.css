@@ -329,7 +329,7 @@ header.active {
 }
 
 .products .product-slider .slide .image img {
-    height: 40rem;
+    height: 42rem;
     width: 100%;
     object-fit: cover;
 }
@@ -705,5 +705,9 @@ header.active {
 
     header.active {
         transform: translateY(-12.6rem);
+    }
+    
+    .products .product-slider .slide .image img {
+        height: 55rem;
     }
 }
