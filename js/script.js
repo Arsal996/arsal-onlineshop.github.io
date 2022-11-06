@@ -31,12 +31,46 @@ themeChange.onclick = () => {
         document.querySelector('body').classList.remove('active');
     }
 }
+// featured product js 
 
-document.querySelectorAll('.small-img-1').forEach(images =>{
-    images.onclick = ()=> {
-        document.querySelectorAll('.big-img-1').src = images.getAttribute('src');
-    }
-});
+ var bigImg1 = document.getElementById('big-img-1');
+ var smallImg1 = document.getElementsByClassName('small-img-1');
+
+ smallImg1[0].onclick = function(){
+    bigImg1.src = smallImg1[0].src;
+ }
+ smallImg1[1].onclick = function(){
+    bigImg1.src = smallImg1[1].src;
+ }
+ smallImg1[2].onclick = function(){
+    bigImg1.src = smallImg1[2].src;
+ }
+
+ var bigImg = document.getElementById('big-img-2');
+ var smallImg = document.getElementsByClassName('small-img-2');
+
+ smallImg[0].onclick = function(){
+    bigImg.src = smallImg[0].src;
+ }
+ smallImg[1].onclick = function(){
+    bigImg.src = smallImg[1].src;
+ }
+ smallImg[2].onclick = function(){
+    bigImg.src = smallImg[2].src;
+ }
+
+ var bigImg3 = document.getElementById('big-img-3');
+ var smallImg3 = document.getElementsByClassName('small-img-3');
+
+ smallImg3[0].onclick = function(){
+    bigImg3.src = smallImg3[0].src;
+ }
+ smallImg3[1].onclick = function(){
+    bigImg3.src = smallImg3[1].src;
+ }
+ smallImg3[2].onclick = function(){
+    bigImg3.src = smallImg3[2].src;
+ }
 
 // time countdown for deal
 
